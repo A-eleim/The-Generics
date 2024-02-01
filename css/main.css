@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Metal Mania', cursive;;
+}
+.first{
+    background-image: url(../imgs/background.png);
+    background-size: cover;
+    padding-bottom:40px ;
+}
+.navbar-toggler{
+    color: aliceblue;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    background-color: aliceblue;
+}
+.first h1{
+    font-size: 75px;
+}
+.hov{
+    background-color: rgba(250,250,250,0.5);
+    position: absolute;
+    opacity: 0;
+    transition: all 1s;
+}
+.hov:hover{
+    opacity: 1;
+}
+.botn{
+    width: 300px;
+    font-size: 25px;
+    color:aliceblue;
+    background-color: rgba(250,250,250,0.1);
+    padding: 15px 30px;
+    border: solid rgb(9, 96, 226) 2px;
+    margin:10px 0;
+    border-radius: 0%;
+    position: relative;
+    right: 150px;
+}
+.botn:hover{
+    background-color: rgba(250,250,250,0.5);
+    color: aliceblue;
+    border-radius: 0%;
+    border: solid rgb(9, 96, 226) 2px;
+
+}
+.faunally h2{
+font-size: 50px;
+padding: 30px 0;
+}
+footer {
+    background-color: rgb(86, 204, 242) !important;
+}
+.logo i:hover{
+    background-color:rgba(250,250,250,0.5);
+}
+
